@@ -1,0 +1,115 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/abhisheksharma/Desktop/Dot net/VM-DotNet-PL1-Set1/VM-DotNet_PL2-Set1-With 9TCs Template/DotNetSelenium/DotNetSelenium.csproj": {}
+  },
+  "projects": {
+    "/Users/abhisheksharma/Desktop/Dot net/VM-DotNet-PL1-Set1/VM-DotNet_PL2-Set1-With 9TCs Template/DotNetSelenium/DotNetSelenium.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/abhisheksharma/Desktop/Dot net/VM-DotNet-PL1-Set1/VM-DotNet_PL2-Set1-With 9TCs Template/DotNetSelenium/DotNetSelenium.csproj",
+        "projectName": "DotNetSelenium",
+        "projectPath": "/Users/abhisheksharma/Desktop/Dot net/VM-DotNet-PL1-Set1/VM-DotNet_PL2-Set1-With 9TCs Template/DotNetSelenium/DotNetSelenium.csproj",
+        "packagesPath": "/Users/abhisheksharma/.nuget/packages/",
+        "outputPath": "/Users/abhisheksharma/Desktop/Dot net/VM-DotNet-PL1-Set1/VM-DotNet_PL2-Set1-With 9TCs Template/DotNetSelenium/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/abhisheksharma/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "DotNetSeleniumExtras.WaitHelpers": {
+              "target": "Package",
+              "version": "[3.11.0, )"
+            },
+            "ExtentReports": {
+              "target": "Package",
+              "version": "[5.0.4, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.8.0, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.14.0, )"
+            },
+            "NUnit.Analyzers": {
+              "target": "Package",
+              "version": "[3.9.0, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            },
+            "Selenium.Support": {
+              "target": "Package",
+              "version": "[4.28.0, )"
+            },
+            "Selenium.WebDriver": {
+              "target": "Package",
+              "version": "[4.28.0, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[7.0.20, 7.0.20]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[7.0.20, 7.0.20]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/x64/sdk/9.0.203/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
